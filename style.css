@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #757373d2;
+}
+#watch{
+  font-size: 4rem;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(43, 5, 60, 0.68);
+}
+#con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid;
+    border-radius: 40px;
+    padding: 25px;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgba(62, 4, 117, 0.603);
+    text-shadow: 2px 2px 2px rgba(95, 10, 164, 0.509);
+    margin-bottom: 20px;
+}
+#controls button{
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: background-color 0.25s ease;
+}
+#strtbtn{
+    background: #4ce873;
+}
+#strtbtn:hover{
+    background-color: #34a04f9c;
+}
+#stopbtn{
+    background: #e84848;
+}
+#stopbtn:hover{
+    background-color: #d53b419c;
+}
+#resbtn{
+    background: #a71494;
+}
+#resbtn:hover{
+    background-color: #a0349c9c;
+}
